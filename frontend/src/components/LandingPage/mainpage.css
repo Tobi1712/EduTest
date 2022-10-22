@@ -1,0 +1,45 @@
+* {
+    font-family: 'Montserrat';
+}
+
+.jumbo {
+    background: linear-gradient(180deg, white, transparent), url('./images/header.jpg') no-repeat;
+    background-size: cover;
+    height: 45em;
+}
+
+a.btn.button {
+    background-color: #97C222;
+    border: none;
+    border-radius: 0;
+    color: white;
+}
+
+a.btn.button:hover,
+a.btn.button:focus,
+a.btn.button:active {
+    background-color: #708f1a;
+    color: white;
+}
+
+.courses-section {
+    background-color:rgb(242, 242, 242);
+}
+
+.pluses-section {
+    background: url('./images/Laptop.jpg') no-repeat;
+    background-size: cover;
+}
+
+.effective-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/learning.jpg') no-repeat;
+    background-size: cover;
+}
+
+.icons {
+    max-height: 10em;
+}
+
+.big-icons {
+    max-height: 20em;
+}

@@ -1,0 +1,66 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+  
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #64961e;
+}
+  
+.logo11 {
+    width: 120px;
+    height: 31px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    margin: 16px 24px 16px 0;
+    float: left;
+    z-index: 10;
+}
+
+.d-logo{
+    height:70px;
+    margin-top:5px;
+    margin-left:-35px;
+	float: left;
+}
+.k-logo{
+    height:150px;
+    margin-top:5px;
+	float: left;
+}
+li{
+    list-style-type: none;
+}
+.user-options-list{
+    position:relative;
+    top:0px;
+    right:35px;
+    list-style: none;
+    float: right;
+    margin-top:-65px;
+	
+}
+.user-options-list > * {
+    display: inline;
+    margin-right: 30px;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+	background: rgba(151, 194, 34);
+    color: white;
+    font-family: Montserrat; 
+    font-weight: Medium;
+    /* font-size:14pt; */
+}
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item {        
+        color: rgb(0, 0, 0);
+        font-family: Montserrat; 
+        font-weight: Medium;
+        font-size:14pt;
+}
+.translate{
+    background: transparent;
+    border: none;
+    margin-left: 12px;
+}

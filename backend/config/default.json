@@ -1,0 +1,12 @@
+{
+    "mongodb": {
+        "connectionString": "mongodb://admin:password@192.168.102.166:27017/admin"
+    },
+    "jwt": {
+        "secret" : "Examination Portal Application"
+    },
+    "mail-credentials" : {
+        "userid" :"<smtp server userId>",
+        "password" : "<smtp server password>"
+    }
+}
